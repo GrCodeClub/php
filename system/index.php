@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta property="og:image" content="https://grcodeclub.github.io/file/background/5.png"/>
-        <meta property="og:title" content="GrCode Club | Php - SQL">
+        <meta property="og:title" content="GrCode Club | Php - Εμφάνιση στοιχείων υπολογιστή">
         <script src="https://grcodeclub.github.io/js/jquery.js"></script>
         <script src="https://grcodeclub.github.io/website/js/menu.js"></script>
         <script src="https://grcodeclub.github.io/js/prism.js"></script>
@@ -14,7 +14,7 @@
 
             <div class="Text"> <!--Αρχή Κειμένου-->
                 <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
-                    <h1 class="title">Στοιχεία του υπολογιστή</h1>
+                    <h1 class="title">Εμφάνιση στοιχείων υπολογιστή</h1>
 
                     <p>Πληροφορίες του διακομιστή (Server Information):Μπορείς να χρησιμοποιήσεις την phpinfo() για να εμφανίσεις 
                         πληροφορίες σχετικά με τη ρύθμιση παραμέτρων της PHP, το λειτουργικό σύστημα, τις εκδόσεις των εγκατεστημένων 
