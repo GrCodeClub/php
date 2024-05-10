@@ -5,6 +5,7 @@
         <script src="https://grcodeclub.github.io/js/jquery.js"></script>
         <script src="https://grcodeclub.github.io/website/js/menu.js"></script>
         <script src="https://grcodeclub.github.io/javascript/add-elements/head.js"></script>
+            <script src="https://grcodeclub.github.io/js/prism.js"></script>
     </head>
 
    <body class="website">
@@ -22,7 +23,13 @@
                             <li>Επικοινωνία με άλλες υπηρεσίες (π.χ. HTTP, FTP)</li>
                         </ol>
                     </p>
-                    
+
+                    <h2>Στοιχεία της PHP</h2>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">&lt;?php
+    echo 'Έκδοση PHP: ' . phpversion() . PHP_EOL;
+    echo 'Μέγιστο όριο μνήμης: ' . ini_get('memory_limit') . PHP_EOL;
+?></code></pre></div></div>    
                     
                     <div class="search">
                         <input type="input" class="form__field" placeholder="Αναζήτηση" id='searchInput'/>
